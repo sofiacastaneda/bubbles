@@ -1,4 +1,4 @@
-# Bubbles - Demo 1 Desarrollo apps de RM  
+# Bubbles - Demo 1 · Desarrollo apps de RM  
 
 ![Mock](https://github.com/sofiacastaneda/bubbles/blob/main/images/banner.jpg)
 
