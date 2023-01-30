@@ -7,8 +7,7 @@
 Me gustan las burbujas :-)
 ____
 ## 
->**Bubble | ˈbəb(ə)l |**
->*noun:*
+>**Burbuja|**
 > Porción de aire u otro gas envuelta en una fina película de líquido o formada en el interior del mismo, que tiende a elevarse.
 
 >**Pompa de Jabón |**
