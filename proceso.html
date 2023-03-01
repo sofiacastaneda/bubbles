@@ -49,7 +49,7 @@
 <div style="margin-top: 8%;">
   <h1><a><strong>Experimentación</strong></a></h1>
   <h6 style="margin-bottom: 1%;"><a><strong>Objetivos</strong> de esta fase:</a></h6>
-  <p>Identificar <strong>patrones de uso</strong> en la creación de burbujas, con el objetivo de encontrar <strong>gestos de interacción</strong> y entender mejor la relación de los usuarios con las burbujas (tanto reales como digitales). Esto es necesario porque si el uso de las burbujas propuesto en el proyecto es <strong>contraintuitivo</strong>, la experiencia del demo se va a ver afectada. Tomarse el tiempo de entender las complejidades de hacer burbujas hace que el diseño de la interacción humano-máquina sea mejor.</p>
+  <p>Identificar <strong>patrones de uso</strong> en la creación de burbujas, con el objetivo de encontrar <strong>gestos de interacción</strong> y entender mejor la relación de los usuarios con las burbujas (tanto reales como digitales). Esto es necesario porque si el uso de las burbujas propuesto en el proyecto es <strong>contraintuitivo</strong>, la experiencia del demo se va a ver afectada. Tomarse el tiempo de entender las complejidades de hacer burbujas puede hacer que el diseño de la interacción humano-máquina sea mejor.</p>
 
   <!--Índice-->
   <h6 style="margin-bottom: 1%"><a><strong>Índice</strong></a></h6>
@@ -58,7 +58,7 @@
     <li><a href="#gestos" style="color: black; text-decoration:none">Gestualidad & patrones de uso | <em style="color: Silver; text-decoration:none;">Entender los comportamientos del usuario</em></a></li>
     <li><a href="#interaccion" style="color: black; text-decoration:none">Lo interactivo | <em style="color: Silver; text-decoration:none;">Explorar posibilidades con AR y microcontroladores</em></a></li>
     <li><a href="#propuesta" style="color: black; text-decoration:none">La idea | <em style="color: Silver; text-decoration:none;">Propuesta(s)</em></a></li>
-    <li><a href="#random" style="color: black; text-decoration:none">Making bubbles like a pro | <em style="color: Silver; text-decoration:none;">Aprendizajes random para ser sospechosamente hábil con las burbujas</em></a></li>
+    <!--<li><a href="#random" style="color: black; text-decoration:none">Making bubbles like a pro | <em style="color: Silver; text-decoration:none;">Aprendizajes random para ser sospechosamente hábil con las burbujas</em></a></li>-->
   </ul>
 
 </div>
@@ -72,8 +72,12 @@
   <img class = "u-max-full-width" src="images/burbujeros.png" alt="pop!" style="margin-bottom: 1%">
   <div class="row">
       <div class="twelve columns">
-          <h4>un montón de definiciones</h4>
-
+          <p>Salí a explorar San Victorino y Dollarcity para entender mejor qué variedad de burbujeros existe en Bogotá. Encontré que principalmente existen burbujeros manuales y máquinas de burbujas. Los burbujeros manuales varían en tamaño pero rara vez superan los 15cm de altura. En las máquinas hay sobretodo variedad en el aspecto externo, pero también se destaca el mecanismo de generación de burbujas. Algunas tienen como propósito generar miles de burbujas chiquitas, otras, generar por meido de ventiladores burbujas grandes. Estas son algunas conclusiones rápidas sobre las burbujas que compré:<p>
+          <p><a>[1] Ventilador (máquina):</a> Es el que permite generar las burbujas más grandes, es de operación lenta porque así no se totean. Toca recargarlo poniéndolo sobre una piscina de líquido. Es el segundo objeto que generó más interés a mis usuarios.</p>
+          <p><a>[2] Varita (burbujero):</a> Aunque no son tan grandes en tamaño, de vez en cuando sí arrojan burbujas gigantes. Hacen mucho reguero. Son interesantes para jugar en grupo, ya que es más fácil arrojar burbujas con ellas.</p>
+          <p><a>[3] El clásico(burbujero):</a> Es muy sensible a la espuma. Tras poco tiempo de uso se vuelve muy difícil generar burbujas. Con paciencia puede sacar burbujas medianas pero en general son chiquis.</p>
+          <p><a>[4] Cámara(máquina):</a> Es un objeto muy cuqui y eso lo hac emuy popular con los usuarios. Es un poco compleja de operar porque requiere de un ángulo específico para que el líquido de burbujas entre en el mecanismo. Suena y prende lucecitas mientras funciona pero no hace ninguna diferencia significativa en la experiencia. Los gestos de este objeto son interesantes: la gente lo opera como cámara o como peluche.</p>
+          <p><a>[5] Líquido:</a> Esta solución facilita que se formen las burbujas. Encontré algunas versiones que tienen olor incluido. Me parece interesante vincular el líquido (o las burbujas) con olores particulares.</p>
 
 <!--Break entre secciones-->
 <div class="row">
@@ -106,7 +110,9 @@
 
     <div class="row">
         <div class="twelve columns">
-            <h4>un montón de definiciones</h4>
+          <p>Inicialmente, quiería fabricar un burbujero que mediante arduino mandara información a Unity y al headset. En el proceso me di cuenta que era trabajo extra que el mismo controller del MagicLeap ya puede asumir, y que además consumiría demasiados recursos hacer que fuera compacto. Abajo está registrada una de las pruebas en las que se ve el proceso y las ideas iniciales del montaje.</p>
+          <img class = "u-max-full-width" src="images/sketch.png" alt="pop!" style="margin-bottom: 1%">
+          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/iChO3mOEem0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <!--Break entre secciones-->
 <div class="row">
@@ -117,12 +123,20 @@
 
 <!--Sección 4-->
 <div id="propuesta">
-    <h3 style="margin-bottom: 0%"><a>[aquí va a ir la propuesta]</a></h3>
-    <h6 style="margin-bottom: 1%"><a>Unir todo lo investigado</a></h6>
+    <h3 style="margin-bottom: 0%"><a>Paisajes de burbujas</a></h3>
+    <h6 style="margin-bottom: 1%"><a>La propuesta</a></h6>
+
 
     <div class="row">
         <div class="twelve columns">
-            <h4>un montón de definiciones</h4>
+          <img class = "u-max-full-width" src="images/bodetoidea.png" alt="pop!" style="margin-bottom: 1%">
+          <p>Sopesando las limitaciones de tiempo y el hecho de que programar en C# se me ha hecho <stong>demasiado</stong> difícil, mi idea es crear un entorno de generación de burbujas, en el cual se pueda controlar el lugar en el que salen para componer espacios "mágicos". Los componentes de la app que desarrollaré serán los siguientes:</p>
+          <p><a>[A] Menú de inicio:</a> Vinculado al headset y a la mirada de la persona, esta pantalla de inicio dará las instrucciones básicas de la app y la bienvenida al usuario.</p>
+          <p><a>[B] Creación:</a> El usuario comienza en un entorno "en blanco" (sólo ve el mundo real) y por medio de inputs en el controller puede hacer que empiecen a aparecer burbujas en el espacio. Me gustría que quizás hubiera unas burbujas localizadas y otra manera de activar una lluvia de burbujas o algo similar.</p>
+          <p><a>[C/D] Interacción:</a> El usuario puede caminar entre las burbujas, de pronto moverlas o manipularlas como si él fuera el viento.</p>
+          <img class = "u-max-full-width" src="images/bocetoburbuja.png" alt="pop!" style="margin-bottom: 1%">
+          <p>En cuanto al diseño de la burbuja digital, la idea es que tenga algunas propiedades mágicas; que se genere a ritmos altos, que dure más tiempo flotando, que quizás pueda moverse con la smanos sin totearse o que refleje el entorno.</p>
+
 
 <!--Break entre secciones-->
 <div class="row">
@@ -131,7 +145,7 @@
     </div>
   </div>
 
-<!--Sección 5-->
+<!--Sección 5
 <div id="random">
     <h3 style="margin-bottom: 0%"><a>Making bubbles like a pro</a></h3>
     <h6 style="margin-bottom: 1%"><a><em>Aprendizajes para ser sospechosamente hábil con las burbujas</em></a></h6>
@@ -140,7 +154,7 @@
         <div class="twelve columns">
             <h4>un montón de definiciones</h4>
 
-            <!--easter egg-->
+            easter egg-->
 
 <a class="button" href="index.html" style="margin-top: 10%">Volver 🫧</a>
 
